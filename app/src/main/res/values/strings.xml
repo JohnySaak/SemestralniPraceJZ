@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ring of Fire</string>
+
+    <string name="card_image">Card Image</string>
+
+    <string-array name="card_rules">
+        <item>You give one drink.</item>
+        <item>You take one drink.</item>
+        <item>Last person to touch the floor drinks.</item>
+        <item>Guys drink.</item>
+        <item>Girls drink.</item>
+        <item>You play the heaven game.</item>
+        <item>You pick a mate to drink with.</item>
+        <item>You make a rhyme game.</item>
+        <item>Never have I ever.</item>
+        <item>You make a rule.</item>
+        <item>You are the question master.</item>
+        <item>You pour into the king\'s cup.</item>
+        <item>Alles zusammen (everyone drinks).</item>
+    </string-array>
+
+</resources>

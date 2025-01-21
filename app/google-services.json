@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168266428447",
+    "project_id": "ringoffire-910e5",
+    "storage_bucket": "ringoffire-910e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168266428447:android:237a3975efb4a3dddbe52a",
+        "android_client_info": {
+          "package_name": "com.example.semestralnipracejz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwIJOR4K4IqVpw2vj83GDXmufQMdfshXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

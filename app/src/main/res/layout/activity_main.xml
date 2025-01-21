@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Obrázek karty -->
+
+
+
+    <ImageView
+        android:id="@+id/cardImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="@string/card_image"
+        android:src="@drawable/card_back" />
+
+    <!-- Horní počítadlo karet -->
+    <TextView
+        android:id="@+id/cardCounterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Cards left: 52"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/cardRuleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Rule will be displayed here"
+        android:textAlignment="center"
+        android:rotation="180"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cardRuleTextViewRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:rotation="0"
+        android:text="Rule will be displayed here"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cardCounterTextViewUpsideDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:rotation="180"
+        android:text="Cards left: 52"
+        android:textSize="18sp" />
+
+</RelativeLayout>
